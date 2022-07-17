@@ -1,10 +1,10 @@
-# Contacts REST API
+# Virtual Contacts - Backend
 
-Repositório para o Mini-Projeto 1 da disciplina de Programação para a Web 2. A aplicação foi feita utilizando o PostgreSQL como base de dados.
+Backend da aplicação de contatos, o mesmo foi feito utilizando o PostgreSQL como base de dados e o Sequelize para permanência no banco.
 
 ## Variáveis de ambiente
 
-Para utilizar a API REST da forma correta você deve definir as seguintes variáveis de ambiente no arquivo .env na raiz do projeto:
+Para utilizar a aplicação da forma correta você deve definir as seguintes variáveis de ambiente no arquivo .env na raiz da pasta do backend:
 
 ```
 HOST={Endereco da maquina onde a API esta sendo executada. (ex: http://localhost:3000 ou www.api.com)}
@@ -16,7 +16,7 @@ TOKEN_SECRET={Texto encriptado que serve como base para geração dos tokens de 
 
 ## Dependências
 
-Antes de executar o projeto devemos primeiro instalar suas dependências, para fazer isso basta executar o comando a seguir na raiz do projeto:
+Antes de executar a aplicação devemos primeiro instalar suas dependências, para fazer isso basta executar o comando a seguir na raiz da pasta backend:
 
 ```
 npm install
